@@ -1,0 +1,14 @@
+c:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ConsoleApp1.AssemblyInfoInputs.cache
+c:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ConsoleApp1.AssemblyInfo.cs
+c:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+c:\Users\balac\Desktop\Enkel\bin\Debug\net9.0\ConsoleApp1.exe
+C:\Users\balac\Desktop\Enkel\bin\Debug\net9.0\ConsoleApp1.deps.json
+C:\Users\balac\Desktop\Enkel\bin\Debug\net9.0\ConsoleApp1.runtimeconfig.json
+c:\Users\balac\Desktop\Enkel\bin\Debug\net9.0\ConsoleApp1.dll
+c:\Users\balac\Desktop\Enkel\bin\Debug\net9.0\ConsoleApp1.pdb
+c:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ConsoleApp1.dll
+c:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\refint\ConsoleApp1.dll
+c:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ConsoleApp1.pdb
+C:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\balac\Desktop\Enkel\obj\Debug\net9.0\ref\ConsoleApp1.dll
