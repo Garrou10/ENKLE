@@ -2,7 +2,7 @@
 
 class Program
 {
-    // Huvudmetoden som styr programflödet.
+    
     static void Main(string[] args)
     {
         // ----- Meny och val -----
@@ -15,12 +15,10 @@ class Program
         // Använder en separat metod för att läsa in ett giltigt menyval (1-4).
         int choice = GetMenuChoice();
 
-        // ----- Läs in två tal -----
-        // Använder en generell och återanvändbar metod för att läsa in heltal säkert.
         int num1 = GetIntegerFromUser("Ange det första talet: ");
         int num2 = GetIntegerFromUser("Ange det andra talet: ");
 
-        // ----- Switch för att anropa rätt metod -----
+      
         switch (choice)
         {
             case 1:
@@ -36,7 +34,7 @@ class Program
                 Console.WriteLine($"Resultat: {num1} * {num2} = {product}");
                 break;
             case 4:
-                // VG-krav: Felhantering för division med 0.
+             
                 if (num2 == 0)
                 {
                     Console.WriteLine("Fel: Det går inte att dividera med noll.");
@@ -47,17 +45,15 @@ class Program
                     Console.WriteLine($"Resultat: {num1} / {num2} = {quotient}");
                 }
                 break;
-            // 'default' behövs egentligen inte här eftersom GetMenuChoice() säkerställer ett giltigt val,
-            // men det är god praxis att ha med den ändå.
+     
             default:
                 Console.WriteLine("Ett oväntat fel inträffade med menyvalet.");
                 break;
         }
     }
 
-    // --- Hjälpmetoder för validering (VG) ---
+ 
 
-    // En robust metod som ber användaren om ett menyval tills ett giltigt (1-4) anges.
     static int GetMenuChoice()
     {
         int choice;
@@ -72,7 +68,6 @@ class Program
         }
     }
 
-    // En generell och återanvändbar metod för att läsa in vilket heltal som helst.
     static int GetIntegerFromUser(string prompt)
     {
         int number;
@@ -87,7 +82,6 @@ class Program
         }
     }
     
-    // --- Metoder för uträkningar ---
 
     static int Add(int a, int b)
     {
